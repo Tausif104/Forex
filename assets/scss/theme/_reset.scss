@@ -6,10 +6,8 @@ body {
     font-family: $primary-font;
     font-weight: normal;
     color: $white;
-    background: #040C16;
-    &.dashboard-body {
-        background: #081923;
-    }
+    background: $background-color;
+
 }
 
 html {

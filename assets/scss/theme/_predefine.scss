@@ -37,7 +37,7 @@
     box-sizing: border-box;
     border-radius: 1000px;
     color: $white;
-    background: linear-gradient(to right, $primary-color, $primary-color2);
+    background: linear-gradient(to right, $primary-color, $secondary-color);
     font-size: 19px;
     font-weight: 500;
     font-family: $primary-font;
@@ -91,7 +91,7 @@
         bottom: -2px;
         left: -2px;
         right: -2px;
-        background: linear-gradient(to right, $primary-color, $primary-color2);
+        background: linear-gradient(to right, $primary-color, $secondary-color);
         z-index: -1;
         border-radius: 1000px;
         transition: .3s;
@@ -105,7 +105,7 @@
 /* gradient-bg css
 ============================================================================================ */
 .gradient-bg {
-    @include gradient(to right, $primary-color, $primary-color2);
+    @include gradient(to right, $primary-color, $secondary-color);
 }
 
 /* section title css
@@ -116,7 +116,7 @@
         font-weight: 700;
         line-height: 1.3;
         span {
-            background: linear-gradient(to right, $primary-color, $primary-color2);
+            background: linear-gradient(to right, $primary-color, $secondary-color);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
