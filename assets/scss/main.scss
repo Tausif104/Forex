@@ -1,0 +1,14 @@
+// including variables and mixins
+@import "theme/variables";
+@import "theme/mixins";
+@import "theme/reset";
+@import "theme/predefine";
+// Custom Scss 
+@import "theme/header";
+@import "theme/banner";
+@import "theme/home";
+@import "theme/inner";
+@import "theme/dashboard";
+@import "theme/dashboard-sidebar";
+@import "theme/footer";
+@import "theme/breadcrumb";

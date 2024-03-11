@@ -1,0 +1,334 @@
+@font-face {
+    font-family: 'Sharp Grotesk Book Italic 20';
+    src: url('../fonts/sharp-20/SharpGrotesk-BookItalic20.eot');
+    src: url('../fonts/sharp-20/SharpGrotesk-BookItalic20.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sharp-20/SharpGrotesk-BookItalic20.woff2') format('woff2'),
+        url('../fonts/sharp-20/SharpGrotesk-BookItalic20.woff') format('woff'),
+        url('../fonts/sharp-20/SharpGrotesk-BookItalic20.ttf') format('truetype'),
+        url('../fonts/sharp-20/SharpGrotesk-BookItalic20.svg#SharpGrotesk-BookItalic20') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk SmBold Italic 20';
+    src: url('../fonts/sharp-20/SharpGrotesk-SemiBoldItalic20.eot');
+    src: url('../fonts/sharp-20/SharpGrotesk-SemiBoldItalic20.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sharp-20/SharpGrotesk-SemiBoldItalic20.woff2') format('woff2'),
+        url('../fonts/sharp-20/SharpGrotesk-SemiBoldItalic20.woff') format('woff'),
+        url('../fonts/sharp-20/SharpGrotesk-SemiBoldItalic20.ttf') format('truetype'),
+        url('../fonts/sharp-20/SharpGrotesk-SemiBoldItalic20.svg#SharpGrotesk-SemiBoldItalic20') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Medium 20';
+    src: url('../fonts/sharp-20/SharpGrotesk-Medium20.eot');
+    src: url('../fonts/sharp-20/SharpGrotesk-Medium20.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sharp-20/SharpGrotesk-Medium20.woff2') format('woff2'),
+        url('../fonts/sharp-20/SharpGrotesk-Medium20.woff') format('woff'),
+        url('../fonts/sharp-20/SharpGrotesk-Medium20.ttf') format('truetype'),
+        url('../fonts/sharp-20/SharpGrotesk-Medium20.svg#SharpGrotesk-Medium20') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Thin Italic 20';
+    src: url('../fonts/sharp-20/SharpGrotesk-ThinItalic20.eot');
+    src: url('../fonts/sharp-20/SharpGrotesk-ThinItalic20.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sharp-20/SharpGrotesk-ThinItalic20.woff2') format('woff2'),
+        url('../fonts/sharp-20/SharpGrotesk-ThinItalic20.woff') format('woff'),
+        url('../fonts/sharp-20/SharpGrotesk-ThinItalic20.ttf') format('truetype'),
+        url('../fonts/sharp-20/SharpGrotesk-ThinItalic20.svg#SharpGrotesk-ThinItalic20') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Thin 20';
+    src: url('../fonts/sharp-20/SharpGrotesk-Thin20.eot');
+    src: url('../fonts/sharp-20/SharpGrotesk-Thin20.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sharp-20/SharpGrotesk-Thin20.woff2') format('woff2'),
+        url('../fonts/sharp-20/SharpGrotesk-Thin20.woff') format('woff'),
+        url('../fonts/sharp-20/SharpGrotesk-Thin20.ttf') format('truetype'),
+        url('../fonts/sharp-20/SharpGrotesk-Thin20.svg#SharpGrotesk-Thin20') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk SemiBold 20';
+    src: url('../fonts/sharp-20/SharpGrotesk-SemiBold20.eot');
+    src: url('../fonts/sharp-20/SharpGrotesk-SemiBold20.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sharp-20/SharpGrotesk-SemiBold20.woff2') format('woff2'),
+        url('../fonts/sharp-20/SharpGrotesk-SemiBold20.woff') format('woff'),
+        url('../fonts/sharp-20/SharpGrotesk-SemiBold20.ttf') format('truetype'),
+        url('../fonts/sharp-20/SharpGrotesk-SemiBold20.svg#SharpGrotesk-SemiBold20') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Light Italic 20';
+    src: url('../fonts/sharp-20/SharpGrotesk-LightItalic20.eot');
+    src: url('../fonts/sharp-20/SharpGrotesk-LightItalic20.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sharp-20/SharpGrotesk-LightItalic20.woff2') format('woff2'),
+        url('../fonts/sharp-20/SharpGrotesk-LightItalic20.woff') format('woff'),
+        url('../fonts/sharp-20/SharpGrotesk-LightItalic20.ttf') format('truetype'),
+        url('../fonts/sharp-20/SharpGrotesk-LightItalic20.svg#SharpGrotesk-LightItalic20') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Light 20';
+    src: url('../fonts/sharp-20/SharpGrotesk-Light20.eot');
+    src: url('../fonts/sharp-20/SharpGrotesk-Light20.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sharp-20/SharpGrotesk-Light20.woff2') format('woff2'),
+        url('../fonts/sharp-20/SharpGrotesk-Light20.woff') format('woff'),
+        url('../fonts/sharp-20/SharpGrotesk-Light20.ttf') format('truetype'),
+        url('../fonts/sharp-20/SharpGrotesk-Light20.svg#SharpGrotesk-Light20') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Medium Italic 20';
+    src: url('../fonts/sharp-20/SharpGrotesk-MediumItalic20.eot');
+    src: url('../fonts/sharp-20/SharpGrotesk-MediumItalic20.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sharp-20/SharpGrotesk-MediumItalic20.woff2') format('woff2'),
+        url('../fonts/sharp-20/SharpGrotesk-MediumItalic20.woff') format('woff'),
+        url('../fonts/sharp-20/SharpGrotesk-MediumItalic20.ttf') format('truetype'),
+        url('../fonts/sharp-20/SharpGrotesk-MediumItalic20.svg#SharpGrotesk-MediumItalic20') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Book 20';
+    src: url('../fonts/sharp-20/SharpGrotesk-Book20.eot');
+    src: url('../fonts/sharp-20/SharpGrotesk-Book20.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sharp-20/SharpGrotesk-Book20.woff2') format('woff2'),
+        url('../fonts/sharp-20/SharpGrotesk-Book20.woff') format('woff'),
+        url('../fonts/sharp-20/SharpGrotesk-Book20.ttf') format('truetype'),
+        url('../fonts/sharp-20/SharpGrotesk-Book20.svg#SharpGrotesk-Book20') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Bold 20';
+    src: url('../fonts/sharp-20/SharpGrotesk-Bold20.eot');
+    src: url('../fonts/sharp-20/SharpGrotesk-Bold20.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sharp-20/SharpGrotesk-Bold20.woff2') format('woff2'),
+        url('../fonts/sharp-20/SharpGrotesk-Bold20.woff') format('woff'),
+        url('../fonts/sharp-20/SharpGrotesk-Bold20.ttf') format('truetype'),
+        url('../fonts/sharp-20/SharpGrotesk-Bold20.svg#SharpGrotesk-Bold20') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Black Italic 20';
+    src: url('../fonts/sharp-20/SharpGrotesk-BlackItalic20.eot');
+    src: url('../fonts/sharp-20/SharpGrotesk-BlackItalic20.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sharp-20/SharpGrotesk-BlackItalic20.woff2') format('woff2'),
+        url('../fonts/sharp-20/SharpGrotesk-BlackItalic20.woff') format('woff'),
+        url('../fonts/sharp-20/SharpGrotesk-BlackItalic20.ttf') format('truetype'),
+        url('../fonts/sharp-20/SharpGrotesk-BlackItalic20.svg#SharpGrotesk-BlackItalic20') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Bold Italic 20';
+    src: url('../fonts/sharp-20/SharpGrotesk-BoldItalic20.eot');
+    src: url('../fonts/sharp-20/SharpGrotesk-BoldItalic20.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sharp-20/SharpGrotesk-BoldItalic20.woff2') format('woff2'),
+        url('../fonts/sharp-20/SharpGrotesk-BoldItalic20.woff') format('woff'),
+        url('../fonts/sharp-20/SharpGrotesk-BoldItalic20.ttf') format('truetype'),
+        url('../fonts/sharp-20/SharpGrotesk-BoldItalic20.svg#SharpGrotesk-BoldItalic20') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Black 20';
+    src: url('../fonts/sharp-20/SharpGrotesk-Black20.eot');
+    src: url('../fonts/sharp-20/SharpGrotesk-Black20.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sharp-20/SharpGrotesk-Black20.woff2') format('woff2'),
+        url('../fonts/sharp-20/SharpGrotesk-Black20.woff') format('woff'),
+        url('../fonts/sharp-20/SharpGrotesk-Black20.ttf') format('truetype'),
+        url('../fonts/sharp-20/SharpGrotesk-Black20.svg#SharpGrotesk-Black20') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Digital-7 Mono';
+    src: url('../fonts/digital/Digital-7Mono.eot');
+    src: url('../fonts/digital/Digital-7Mono.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/digital/Digital-7Mono.woff2') format('woff2'),
+        url('../fonts/digital/Digital-7Mono.woff') format('woff'),
+        url('../fonts/digital/Digital-7Mono.ttf') format('truetype'),
+        url('../fonts/digital/Digital-7Mono.svg#Digital-7Mono') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    line-height: 1.7;
+    font-size: 16px;
+    font-family: $primary-font;
+    font-weight: normal;
+    color: $white;
+    background: #040C16;
+    &.dashboard-body {
+        background: #081923;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $white;
+    font-family: $primary-font;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    @include transition();
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        outline: none;
+    }
+}
+
+button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.slick-slide:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.slick-slide img {
+    display: inline-block !important;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+.form-group {
+    label {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+}
+
+input {
+    background: #1E213B;
+    border: 1px solid #383B5A;
+    padding: 0 15px;
+    height: 60px;
+    border-radius: 8px;
+    color: #A0A5D7;
+    font-size: 16px;
+    width: 100%;
+    &::placeholder {
+        color: #A0A5D7;
+    }
+}
+
+textarea {
+    background: #1E213B;
+    border: 1px solid #383B5A;
+    padding: 15px;
+    height: 100px;
+    border-radius: 8px;
+    color: #A0A5D7;
+    font-size: 16px;
+    &::placeholder {
+        color: #A0A5D7;
+    }
+}
+
+button {
+    border: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
