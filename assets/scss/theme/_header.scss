@@ -1,0 +1,27 @@
+header {
+  padding-top: 22px;
+  .logo {
+    margin-right: 50px;
+  }
+  .mainmenu {
+    ul {
+      gap: 35px;
+      li {
+         a {
+          color: $white;
+          font-size: 18px;
+          &:hover {
+            color: $primary-color;
+          }
+         }
+      }
+    }
+  }
+  .banner-shape-top {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    max-width: 900px;
+    z-index: -1;
+  }
+}

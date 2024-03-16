@@ -1,0 +1,154 @@
+@media screen and (max-width:1680px) {
+
+}
+@media screen and (max-width:1440px) {
+  .specialty-section .specialty-card h3 {
+      font-size: 22px;
+      line-height: 1.6;
+  }
+  .specialty-section .specialty-card p {
+    font-size: 15px;
+  }
+  .pricing-plan .pricing-box-item .pricing-list li {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width:1199px) {
+  .banner-section h1 {
+      font-size: 50px;
+  }
+
+  .banner-thumb img {
+      max-width: 500px;
+  }
+
+  .banner-thumb {
+      margin-top: 30px;
+  }
+
+  header {
+    display: none;
+  }
+
+  .about-section {
+    .about-shape {
+      display: none;
+    }
+    .about-thumbnail {
+      max-width: 350px;
+    }
+    .about-content {
+      margin-left: 0px;
+      margin-top: 30px;
+    }
+  }
+  .pricing-plan .pricing-box-item .pricing-list {
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  .blog-item {
+    margin-bottom: 30px;
+      height: auto;
+  }
+  .footer-boxes-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+}
+@media screen and (max-width:991px) {
+  .pricing-boxes {
+      flex-direction: column;
+  }
+
+  .pricing-plan .pricing-box-item {
+      width: 100%;
+  }
+  .pricing-box-item > img {
+      width: 100%;
+  }
+
+  .pricing-plan .pricing-box-item .pricing-list {
+      justify-content: center;
+      display: flex;
+  }
+
+  .pricing-plan .pricing-box-item .pricing-button {
+      margin-bottom: 0;
+      padding-bottom: 30px;
+  }
+
+  .pricing-boxes {
+      gap: 30px;
+  }
+  .counter-items {
+      grid-template-columns: repeat(2, 1fr);
+  }
+  .counter-item::after {
+    display: none;
+  }
+  .counter-items {
+      padding: 30px 0;
+      gap: 30px;
+  }
+  .footer-boxes-grid {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 50px;
+      
+  }
+
+  .footer-box.footer-nav h4 {
+      margin-bottom: 10px;
+  }
+
+  .footer-box.footer-nav ul li {line-height: 2.2;}
+
+  .payment {
+      text-align: right;
+  }
+
+  .social {
+      flex-direction: column;
+      align-items: start;
+  }
+
+  .social ul {
+      margin-left: 0;
+      margin-top: 20px;
+  }
+  
+}
+@media screen and (max-width:767px) {
+  .section-gap {
+    padding: 50px 0;
+  }
+  .padding-bottom {
+    padding-bottom: 50px;
+  }
+  .padding-top {
+    padding-top: 50px;
+  }
+  .banner-section .banner-text {
+      text-align: center;
+  }
+
+  .banner-section h1 {
+      font-size: 35px;
+  }
+  
+    .section-title {
+      h2 {
+        font-size: 30px;
+      }
+    }
+
+    .newsletter-content form {
+        width: 100%;
+    }
+  
+}
+@media screen and (max-width:585px) {
+  
+}
+@media screen and (max-width:480px) {
+  
+}

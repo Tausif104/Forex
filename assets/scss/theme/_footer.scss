@@ -1,0 +1,143 @@
+
+footer {
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+}
+
+.newsletter-content h3 {
+  font-size: 45px;
+}
+
+.newsletter-content p {
+  font-size: 22px;
+  color: #717282;
+}
+
+.newsletter-content form {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 50px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.newsletter-content form input[type="email"] {
+  width: 70%;
+  padding: 20px;
+}
+
+.newsletter-content form input[type=submit] {
+  width: 30%;
+  background-image: linear-gradient(45deg, #F7C202, #F48036);
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+.newsletter {
+  margin-bottom: 100px;
+}
+
+.footer-boxes-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.main-footer {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.footer-box.footer-nav h4 {
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.footer-box.footer-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-box.footer-nav ul li a {
+  color: #fff;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.footer-box.footer-nav ul li {
+  line-height: 2.8;
+}
+
+.footer-box.footer-nav ul li a:hover {
+  opacity: 1;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social h4 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.social ul {
+  display: flex;
+  margin-left: 30px;
+  gap: 15px;
+}
+
+.social ul li a {
+  color: #fff;
+  border: 1px solid #474849;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.copyright {
+  border-top: 1px solid #222222;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+
+.copyright-content p {
+  color: #717282;
+}
+
+.payment {
+  color: #717282;
+}
+
+.payment img {
+  margin-left: 15px;
+}
+
+.language select {
+  border: none;
+  background: transparent;
+  color: #fff;
+}
+
+.language select option {
+  color: #333;
+}
