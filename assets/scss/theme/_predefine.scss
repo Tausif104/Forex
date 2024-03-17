@@ -25,7 +25,8 @@
     padding: 12px 28px;
     border-radius: 50px;
     font-weight: 500;
-
+    border: none;
+    text-align: center;
 }
 
 .secondary-btn {
@@ -136,6 +137,21 @@
             }
         }
     }
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="number"], textarea {
+    font-size: 14px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #6A4B0F;
+    color: #fff;
+    border-radius: 2px;
+    padding: 20px;
+    resize: none;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #fff;
 }
 
 /* animation delay css

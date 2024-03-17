@@ -30,6 +30,46 @@
     display: none;
   }
 
+  .header-mobile {
+    display: block;
+  }
+  a.hamburger-menu {
+    background-color: #FF9900;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.header-mobile {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header-mobile {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    margin: 0 auto;
+}
+
+.mobile-inner {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.offcanvas nav.mainmenu ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.offcanvas nav.mainmenu ul li a {
+  color: #333;
+}
+
   .about-section {
     .about-shape {
       display: none;
@@ -51,8 +91,13 @@
       height: auto;
   }
   .footer-boxes-grid {
-    grid-template-columns: repeat(3, 1fr);
-}
+      grid-template-columns: repeat(3, 1fr);
+  }
+
+  .why-choose-us-content {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
 
 }
 @media screen and (max-width:991px) {
@@ -144,6 +189,12 @@
     .newsletter-content form {
         width: 100%;
     }
+    .contact-form-wrapper {
+      padding: 30px;
+  }
+  .page-banner-content h1 {
+    font-size: 30px;
+}
   
 }
 @media screen and (max-width:585px) {
