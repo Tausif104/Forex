@@ -27,6 +27,13 @@
     font-weight: 500;
     border: none;
     text-align: center;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position .5s;
+}
+
+.primary-btn:hover {
+    background-position: 0 0;
 }
 
 .secondary-btn {

@@ -126,6 +126,13 @@ img {
   font-weight: 500;
   border: none;
   text-align: center;
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  transition: background-position 0.5s;
+}
+
+.primary-btn:hover {
+  background-position: 0 0;
 }
 
 .bordered-btn {
@@ -620,6 +627,56 @@ ul.slick-dots li.slick-active button {
 
 footer {
   background-image: url(../images/footer-bg.jpg);
+}
+
+.signal-item {
+  transition: 0.3s;
+}
+
+.signal-item:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+.specialty-card {
+  transition: 0.3s;
+}
+
+.specialty-card:hover {
+  transform: translateY(-10px);
+}
+
+.pricing-plan .pricing-box-item .pricing-button a:hover {
+  background-color: #F47E37;
+}
+
+.social a {
+  transition: 0.3s;
+}
+
+.social a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.pricing-box-item:hover {
+  transform: translateY(-10px);
+}
+
+.pricing-box-item {
+  transition: 0.3s;
+}
+
+.footer-box.footer-nav ul li a:hover {
+  color: #F6B909;
+}
+
+.newsletter-content form input[type=submit]:hover {
+  opacity: 0.7;
+}
+
+.newsletter-content form input[type=submit]:hover {
+  transition: 0.3s;
 }
 
 .page-banner {
