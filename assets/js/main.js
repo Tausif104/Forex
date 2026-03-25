@@ -27,6 +27,22 @@
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') closeNav();
   });
+
+  // Mobile submenu accordion
+  document.querySelectorAll('.fx-sub-toggle').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var submenu = this.closest('li').querySelector('.fx-submenu');
+      var isOpen = submenu.classList.contains('is-open');
+      // close all
+      document.querySelectorAll('.fx-submenu.is-open').forEach(function (s) { s.classList.remove('is-open'); });
+      document.querySelectorAll('.fx-sub-toggle.is-open').forEach(function (b) { b.classList.remove('is-open'); });
+      // open this one if it was closed
+      if (!isOpen) {
+        submenu.classList.add('is-open');
+        this.classList.add('is-open');
+      }
+    });
+  });
 })();
 
 // ── GSAP Hero Animation ──────────────────────────────────────────────────────

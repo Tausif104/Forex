@@ -53,10 +53,51 @@
       <nav class="fx-nav-menu">
         <ul>
           <li><a href="index.html"><span class="nav-num">01</span><span class="nav-label">Home</span></a></li>
-          <li><a href="about.html"><span class="nav-num">02</span><span class="nav-label">About Us</span></a></li>
-          <li><a href="#"><span class="nav-num">03</span><span class="nav-label">FX Live Charts</span></a></li>
-          <li><a href="#"><span class="nav-num">04</span><span class="nav-label">Forex Calendar</span></a></li>
-          <li><a href="blog.html"><span class="nav-num">05</span><span class="nav-label">Blog</span></a></li>
+          <li class="has-sub">
+            <div class="fx-nav-item">
+              <a href="about.html"><span class="nav-num">02</span><span class="nav-label">About Us</span></a>
+              <button class="fx-sub-toggle" aria-label="Toggle submenu"><i class="fas fa-plus"></i></button>
+            </div>
+            <ul class="fx-submenu">
+              <li><a href="about.html">Our Story</a></li>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Testimonials</a></li>
+            </ul>
+          </li>
+          <li class="has-sub">
+            <div class="fx-nav-item">
+              <a href="#"><span class="nav-num">03</span><span class="nav-label">FX Live Charts</span></a>
+              <button class="fx-sub-toggle" aria-label="Toggle submenu"><i class="fas fa-plus"></i></button>
+            </div>
+            <ul class="fx-submenu">
+              <li><a href="#">EUR/USD</a></li>
+              <li><a href="#">GBP/USD</a></li>
+              <li><a href="#">BTC/USD</a></li>
+              <li><a href="#">Gold (XAU/USD)</a></li>
+            </ul>
+          </li>
+          <li class="has-sub">
+            <div class="fx-nav-item">
+              <a href="#"><span class="nav-num">04</span><span class="nav-label">Forex Calendar</span></a>
+              <button class="fx-sub-toggle" aria-label="Toggle submenu"><i class="fas fa-plus"></i></button>
+            </div>
+            <ul class="fx-submenu">
+              <li><a href="#">Economic Events</a></li>
+              <li><a href="#">Market News</a></li>
+              <li><a href="#">High Impact</a></li>
+            </ul>
+          </li>
+          <li class="has-sub">
+            <div class="fx-nav-item">
+              <a href="blog.html"><span class="nav-num">05</span><span class="nav-label">Blog</span></a>
+              <button class="fx-sub-toggle" aria-label="Toggle submenu"><i class="fas fa-plus"></i></button>
+            </div>
+            <ul class="fx-submenu">
+              <li><a href="blog.html">Latest Posts</a></li>
+              <li><a href="#">Forex Tips</a></li>
+              <li><a href="#">Market Analysis</a></li>
+            </ul>
+          </li>
         </ul>
       </nav>
       <div class="fx-nav-footer">
@@ -84,11 +125,40 @@
             </div>
             <nav class="mainmenu">
               <ul class="d-flex">
-                <li><a href="">Home</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">FX Live Charts</a></li>
-                <li><a href="">Forex Calendrer</a></li>
-                <li><a href="">Blog</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li class="has-dropdown">
+                  <a href="about.html">About Us <i class="fas fa-chevron-down"></i></a>
+                  <ul class="submenu">
+                    <li><a href="about.html">Our Story</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                  </ul>
+                </li>
+                <li class="has-dropdown">
+                  <a href="#">FX Live Charts <i class="fas fa-chevron-down"></i></a>
+                  <ul class="submenu">
+                    <li><a href="#">EUR/USD</a></li>
+                    <li><a href="#">GBP/USD</a></li>
+                    <li><a href="#">BTC/USD</a></li>
+                    <li><a href="#">Gold (XAU/USD)</a></li>
+                  </ul>
+                </li>
+                <li class="has-dropdown">
+                  <a href="#">Forex Calendar <i class="fas fa-chevron-down"></i></a>
+                  <ul class="submenu">
+                    <li><a href="#">Economic Events</a></li>
+                    <li><a href="#">Market News</a></li>
+                    <li><a href="#">High Impact</a></li>
+                  </ul>
+                </li>
+                <li class="has-dropdown">
+                  <a href="blog.html">Blog <i class="fas fa-chevron-down"></i></a>
+                  <ul class="submenu">
+                    <li><a href="blog.html">Latest Posts</a></li>
+                    <li><a href="#">Forex Tips</a></li>
+                    <li><a href="#">Market Analysis</a></li>
+                  </ul>
+                </li>
               </ul>
             </nav>
           </div>
