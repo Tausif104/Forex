@@ -32,32 +32,42 @@
         <img src="assets/images/logo.svg" alt="">
       </a>
 
-      <a class="hamburger-menu" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-        aria-controls="offcanvasExample">
-        <i class="fas fa-bars"></i>
-      </a>
+      <button class="nav-trigger" id="navTrigger" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
   </div>
 
 
-  <div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-    <div class="offcanvas-header">
-      <img src="assets/images/logo.svg" alt="">
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-      <nav class="mainmenu">
-        <ul class="d-flex">
-          <li><a href="">Home</a></li>
-          <li><a href="">About Us</a></li>
-          <li><a href="">FX Live Charts</a></li>
-          <li><a href="">Forex Calendrer</a></li>
-          <li><a href="">Blog</a></li>
+  <!-- Custom Fullscreen Mobile Menu -->
+  <div class="fx-nav-overlay" id="fxNavOverlay">
+    <div class="fx-nav-inner">
+      <div class="fx-nav-top">
+        <a href="index.html"><img src="assets/images/logo.svg" alt="Forex Signal"></a>
+        <button class="nav-close" id="navClose" aria-label="Close menu">&#x2715;</button>
+      </div>
+      <nav class="fx-nav-menu">
+        <ul>
+          <li><a href="index.html"><span class="nav-num">01</span><span class="nav-label">Home</span></a></li>
+          <li><a href="about.html"><span class="nav-num">02</span><span class="nav-label">About Us</span></a></li>
+          <li><a href="#"><span class="nav-num">03</span><span class="nav-label">FX Live Charts</span></a></li>
+          <li><a href="#"><span class="nav-num">04</span><span class="nav-label">Forex Calendar</span></a></li>
+          <li><a href="blog.html"><span class="nav-num">05</span><span class="nav-label">Blog</span></a></li>
         </ul>
       </nav>
-
-      <a href="#" class="primary-btn mt-4">Contact us</a>
+      <div class="fx-nav-footer">
+        <a href="contact.html" class="fx-nav-cta">Contact Us &rarr;</a>
+        <div class="fx-nav-social">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-telegram"></i></a>
+        </div>
+      </div>
     </div>
+    <div class="fx-nav-bg-accent"></div>
   </div>
 
   <header>
